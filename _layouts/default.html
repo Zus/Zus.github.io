@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
     <title>{{ site.title }}</title>
-
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
   </head>
 
   <body>
@@ -38,11 +36,14 @@
 
         <aside id="sidebar">
 			<ul>
-                <li><a href=https://twitter.com/ZusmanOren>Twitter</a></li>
+                <li><a href=https://twitter.com/ZusmanOren>Twitter - English</a></li>
+                <li><a href=https://twitter.com/orenzusman>Twitter - Hebrew</a></li>
                 <li><a href=https://www.linkedin.com/in/orenzusman/>Linkedin</a></li>
                 <li><a href=https://www.instagram.com/oren.zusman/>Instagram</a></li>
                 <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=zusman+o">Pubmed</a></li>
                 <li><a href="https://scholar.google.co.il/citations?user=PSvmwCkAAAAJ">Google Scholar</a></li>
+                <div itemscope itemtype="https://schema.org/Person">
+                    <a itemprop="sameAs" content="https://orcid.org/0000-0001-9523-0834" href="https://orcid.org/0000-0001-9523-0834" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-9523-0834</a></div>
 			</ul>
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
